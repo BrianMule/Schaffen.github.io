@@ -1,0 +1,109 @@
+body{
+	background: #F9F9F9;
+}
+/*HeaderStyle*/
+header{
+	background: #E5E5E5;
+	height: 15%;
+	width: 100%;
+}
+.header__container,.main__container,.footer_container{
+	font-family: 'Ubuntu', sans-serif;
+}
+.header__icon{
+	position: absolute;
+	width: 15%;
+	margin-left: 1%;
+	display: inline;
+}
+.header__title{
+	padding-top: 3%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 7vw;
+}
+.header__nav{
+	margin-left: 20%;
+	padding: 2%;
+}
+.nav__li{
+	display: inline;
+}
+.nav__li a{
+	display: inline;
+	font-size: 2vw;
+	padding-left: 2%;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+}
+.nav__li a:hover{
+	color: #6E6E6E;
+}
+/*HeaderStyle*/
+/*MainStyle*/
+.main__articule{
+	margin: 5% 0;
+}
+.main__p__one{
+	font-size: 1.6vw;
+	display: inline-block;
+	width: 50%;
+	padding: 5%;
+	margin-left: 1.5%;
+}
+.main__img__one{
+	width: 30%;
+	position: absolute;
+	margin: 3%;
+	border-radius: 10px;
+}
+.main__img__two{
+	margin-left: 6%;
+	width: 30%;
+	border-radius: 10px;
+	display: inline-block;
+}
+.main__p__two{
+	font-size: 1.6vw;
+	display: inline-block;
+	width: 50%;
+	padding: 2%;
+	float: right;
+	margin-top: 1%;
+}
+.main__feet_container{
+	margin: 6% 0;
+}
+.main__feet{
+	font-size: 1.3vw;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	padding: 1%;
+}
+.main__feet_two{
+	font-size: 1.3vw;
+	font-style: italic;
+	text-align: center;
+	padding: 1%;
+	opacity: .8;
+}
+/*MainStyle*/
+/*FooterStyle*/
+footer{
+	background-color: #E5E5E5;
+  padding: 20px;
+  text-align: center;
+  clear: right;
+}
+.footer__icon{
+	width: 15%;
+}
+.copyright{
+	padding: 1%;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.2vw;
+}
+/*FooterStyle*/
