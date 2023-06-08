@@ -1,0 +1,96 @@
+body{
+	background: #F9F9F9;
+}
+/*HeaderStyle*/
+header{
+	background: #E5E5E5;
+	width: 100%;
+}
+.header__container,.main__container,.footer_container{
+	font-family: 'Ubuntu', sans-serif;
+}
+.header__icon{
+	position: absolute;
+	width: 13%;
+	margin-left: 1%;
+	display: inline;
+}
+.header__title{
+	padding-top: 3%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 5vw;
+}
+.header__nav{
+	margin-left: 20%;
+	padding: 2%;
+}
+.nav__li{
+	display: inline;
+}
+.nav__li a{
+	display: inline;
+	font-size: 1.5vw;
+	margin-left: 6%;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+}
+.nav__li a:hover{
+	color: #6E6E6E;
+}
+/*HeaderStyle*/
+/*MainStyle*/
+.main__parrafo{
+	font-size: 1.6vw;
+	padding: 4%;
+	text-align: center;
+}
+.main__map{
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 20px;
+}
+.main__ul{
+	margin-left: 35%;
+	margin-bottom: 8%;
+}
+.main__li{
+	margin: 5% 0%;
+}
+.contac__icon{
+	width: 5%;
+	position: absolute;
+}
+.contac__description{
+	margin-left: 10%;
+	padding: 2%;
+	font-size: 1.5vw;
+	display: inline-block;
+}
+.contac__link{
+	color: #000000;
+	text-decoration: none;
+}
+.contac__link:hover{
+	color: #949494;
+	text-decoration: none;
+}
+/*MainStyle*/
+/*FooterStyle*/
+footer{
+	background-color: #E5E5E5;
+  padding: 20px;
+  text-align: center;
+  clear: right;
+}
+.footer__icon{
+	width: 15%;
+}
+.copyright{
+	padding: 1%;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.2vw;
+}
+/*FooterStyle*/
